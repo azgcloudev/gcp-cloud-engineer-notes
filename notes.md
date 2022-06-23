@@ -3,7 +3,7 @@
 **Table of Contents**
 1. [GCP Fundamentals](#gcp-fundamentals)
 2. [Setting up a cloud solution environment](#setting-up-a-cloud-solution-environment)
-    2.1 [Setting up cloud projects and accounts](#setting-up-cloud-projects-and-accounts)
+    2-1. [Setting up cloud projects and accounts](#setting-up-cloud-projects-and-accounts)
 
 ## GCP Fundamentals
 - Cloud provides elasticity
