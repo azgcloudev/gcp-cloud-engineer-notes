@@ -63,3 +63,41 @@ Zones provide high availability within the same region.
 
 ## Setting up a cloud solution environment
 ### Setting up cloud projects and accounts
+**Creating Projects**
+High level organization called resource manager hierarchy:
+    - Organization >> Folder >> Projects >> Resources
+    - More info [here](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
+
+- Project IDs are globally unique
+- Billing accounts are associated to projects same as resources
+- Shut down a project deletes everything (resources) in the project
+
+**Assign users to predefined IAM roles within a project**
+- Users:
+    - Can get roles assigned
+    - Users are created through IAM
+- Roles = collection of permissions
+- GCP has predefined roles
+- Always apply the least permissions to users (only the ones needed)
+
+**Manage users in cloud identity**
+
+Cloud Identty:
+- Google Account
+    - Username and password (gmail account)
+- Service Principal
+    - Used for applications
+    - Resources are attach to a service account
+    - Provides access to application running in resources (such as compute engine) (example: an application trying to access BigQuery)
+    - Can attach roles to service accounts
+- G-Suit Domain
+    - Now know as google workspace
+    - Users in workspaces can access to google cloud
+    - Allow to have custom domains
+- Cloud Identity Domain [URL](https://cloud.google.com/identity#section-1)
+    -   Allow custom domains that are not from workspace (g-suit)
+- Google group
+    -   Can create a google group and add users, which the members of a group can get access permissions
+    - Roles can be assigned to the group it self
+
+**Enabling APIs within projects**
