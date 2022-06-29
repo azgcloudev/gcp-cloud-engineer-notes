@@ -101,3 +101,19 @@ Cloud Identty:
     - Roles can be assigned to the group it self
 
 **Enabling APIs within projects**
+- APIs are enable per project
+- APIs are use to access specific services
+
+**Provising one or more Stackdriver workspaces**
+- This is cover in the *Monitoring and logging* section
+
+### Manage billing configuration
+**Creating one or more billing accounts and link projects**
+- From billing can do the following:
+    - Disable billing from a project
+    - Create new billing accounts
+    - Change the billing account of a project
+
+[LAB] practice creating billing configuration from the cloud portal
+
+**Establishing billing budgets and alerts**
